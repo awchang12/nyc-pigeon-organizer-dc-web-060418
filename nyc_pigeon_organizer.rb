@@ -4,6 +4,6 @@ def nyc_pigeon_organizer(data)
   
   data.each do |key, value_hash|
     value_hash.each do |attribute, birds|
-      birds.each do|bird|
-      if 
+      birds.each do |bird|
+        if organized_pigeons[bird]
 end
