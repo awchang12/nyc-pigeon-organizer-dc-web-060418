@@ -6,5 +6,6 @@ def nyc_pigeon_organizer(data)
     value_hash.each do |attribute, birds|
       birds.each do |bird|
         if !organized_pigeons[bird]
+          organized_pigeons[bird] = {}
           
 end
