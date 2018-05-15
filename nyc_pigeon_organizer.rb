@@ -3,5 +3,6 @@ def nyc_pigeon_organizer(data)
   organized_pigeons = []
   
   data.each do |key, value_hash|
-    value_hash.each do |
+    value_hash.each do |attribute, birds|
+      birds.each do|bird
 end
