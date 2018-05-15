@@ -10,5 +10,10 @@ def nyc_pigeon_organizer(data)
           organized_pigeons[bird][key] = [] << attribute.to_s
         elsif !organized_pigeons[bird][key]
           organized_pigeons[bird][key] = [] << attribute.to_s
-          
+        else
+          organized_pigeons[bird][key] << attribute.to_s
+        end
+      end
+    end
+  end
 end
