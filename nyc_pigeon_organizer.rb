@@ -7,5 +7,5 @@ def nyc_pigeon_organizer(data)
       birds.each do |bird|
         if !organized_pigeons[bird]
           organized_pigeons[bird] = {}
-          
+          organized_pigeons[bird][key] = []
 end
